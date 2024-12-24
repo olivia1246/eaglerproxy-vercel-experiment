@@ -11,14 +11,14 @@ _Working for latest EaglercraftX client version as of `5/21/2024`_
   - Due to Eaglercraft's skin system and how it works, forcing skins onto the client is impossible (from what I know so far). This is only a client-sided bug/glitch - others will only see your Mojang/Minecraft account skin and cape.
 
 ## Installing and Running
+Elite4r has edited `package.json` to make it easier to set up.
 
 This assumes that you have [Node.js](https://nodejs.org/en) LTS or higher installed on your computer, and that you have basic Git and CLI (command line) knowledge.
 
 1. Clone/download this repository.
 2. Modify and configure `config.ts` to your liking.
-3. Install TypeScript and required dependencies (`npm i -g typescript` and `npm i`).
-4. Compile the TypeScript code into normal JavaScript code (`tsc`).
-5. Go into the `build` directory, and run `node index.js`.
+3. Run `npm run build` to automatically install node, typescript, and compile typescript into javascript.
+4. Run `npm run start` to automatically go into the `build` directory and run `node index.js`.
 
 ### Important: For non-traditional runtime environments
 
